@@ -32,8 +32,6 @@ test:
 about:
   home: https://github.com/jupyterhub/jupyter-server-proxy
   license: BSD-3-Clause
-  # Vendoring the license file until the packages include it.
-  # xref: https://github.com/jupyterhub/jupyter-server-proxy/pull/105
   license_file: LICENSE
   summary: Jupyter server extension to supervise and proxy web services
   description: |
