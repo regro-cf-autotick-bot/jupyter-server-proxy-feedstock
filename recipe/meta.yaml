@@ -1,5 +1,5 @@
 {% set name = "jupyter-server-proxy" %}
-{% set version = "1.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5a7d5bd044e43b40ca04df4040dd92efa66f7a98406e7b7b4c985fd86b18cbdd
+  sha256: a254fb9c2adaeaf042ff02b7a1c74e0ed67009074176e9c5473e53f51782d4b0
 
 build:
   number: 0
@@ -32,8 +32,6 @@ test:
 about:
   home: https://github.com/jupyterhub/jupyter-server-proxy
   license: BSD-3-Clause
-  # Vendoring the license file until the packages include it.
-  # xref: https://github.com/jupyterhub/jupyter-server-proxy/pull/105
   license_file: LICENSE
   summary: Jupyter server extension to supervise and proxy web services
   description: |
