@@ -125,4 +125,5 @@ Feedstock Maintainers
 * [@lsetiawan](https://github.com/lsetiawan/)
 * [@minrk](https://github.com/minrk/)
 * [@ocefpaf](https://github.com/ocefpaf/)
+* [@xhochy](https://github.com/xhochy/)
 
