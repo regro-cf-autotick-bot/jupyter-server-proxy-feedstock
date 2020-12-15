@@ -5,9 +5,13 @@ Home: https://github.com/jupyterhub/jupyter-server-proxy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter-server-proxy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Jupyter server extension to supervise and proxy web services
+
+Development: https://github.com/jupyterhub/jupyter-server-proxy
+
+Documentation: https://jupyter-server-proxy.readthedocs.io
 
 Jupyter Server Proxy lets you run arbitrary external processes (such as
 RStudio, Shiny Server, syncthing, PostgreSQL, etc) alongside your notebook,
